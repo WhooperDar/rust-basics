@@ -9,6 +9,8 @@ mod use_vec;
 mod use_cont;
 mod use_arrow;
 mod use_clo; 
+mod use_pointers;
+mod use_structs;
 
 fn main() {
     println!("Hello, world!");
@@ -24,6 +26,8 @@ fn main() {
     use_cont::use_conditionals();
     use_arrow::use_arrow_fn();
     use_clo::use_closure();
+    use_pointers::use_pointer();
+    use_structs::use_structs();
 }
 
 pub fn test_run(){ 
