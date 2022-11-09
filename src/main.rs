@@ -8,6 +8,7 @@ mod use_arr;
 mod use_vec;
 mod use_cont;
 mod use_arrow;
+mod use_clo; 
 
 fn main() {
     println!("Hello, world!");
@@ -22,8 +23,10 @@ fn main() {
     use_vec::use_vectors();
     use_cont::use_conditionals();
     use_arrow::use_arrow_fn();
+    use_clo::use_closure();
 }
 
 pub fn test_run(){ 
     println!("Hello from the run function");
+
 }
