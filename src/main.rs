@@ -11,6 +11,7 @@ mod use_arrow;
 mod use_clo; 
 mod use_pointers;
 mod use_structs;
+mod use_trait; 
 
 fn main() {
     println!("Hello, world!");
@@ -28,6 +29,7 @@ fn main() {
     use_clo::use_closure();
     use_pointers::use_pointer();
     use_structs::use_structs();
+    use_trait::use_trait();
 }
 
 pub fn test_run(){ 
