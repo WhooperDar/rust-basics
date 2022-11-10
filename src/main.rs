@@ -12,7 +12,8 @@ mod use_clo;
 mod use_pointers;
 mod use_structs;
 mod use_trait; 
-
+mod use_enums; 
+mod use_hashmap;
 fn main() {
     println!("Hello, world!");
 
@@ -30,6 +31,8 @@ fn main() {
     use_pointers::use_pointer();
     use_structs::use_structs();
     use_trait::use_trait();
+    use_enums::use_enum();
+    use_hashmap::use_hashmap();
 }
 
 pub fn test_run(){ 
