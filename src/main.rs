@@ -14,6 +14,12 @@ mod use_structs;
 mod use_trait; 
 mod use_enums; 
 mod use_hashmap;
+mod use_options; 
+mod use_fs;
+mod use_args;
+mod use_match;  
+mod use_result;
+
 fn main() {
     println!("Hello, world!");
 
@@ -33,6 +39,12 @@ fn main() {
     use_trait::use_trait();
     use_enums::use_enum();
     use_hashmap::use_hashmap();
+    use_options::use_options();
+    use_fs::use_file_sys();
+    use_args::use_agrs(); 
+    use_match::use_match();
+    use_result::use_result();
+
 }
 
 pub fn test_run(){ 
