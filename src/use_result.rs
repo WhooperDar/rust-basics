@@ -12,10 +12,10 @@ fn divide(dividend: i32, divisor: i32) -> Result<i32, MyError>{
         Ok(dividend / divisor) // return value if success
     }
 }
+
 pub fn use_result(){
     let divide1: Result<i32, MyError> = divide(15, 3);
     let divide2: Result<i32, MyError> = divide(666, 23232);
-
 
     match divide1 {
         Ok(v) => println!("Value from result = {}", v),

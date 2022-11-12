@@ -31,8 +31,8 @@ pub fn greetings(greet: &str, name: &str) {
 
 pub fn buy_things(things: &str, value: f64, isWritten: bool) {
     if isWritten {
-        println!("I need to buy this: {}", things);
+        println!("I need to buy this: {} {}", things, value);
     } else {
-        println!("I need to buy this: {}", things);
+        println!("I need to buy this: {} {}", things, value);
     }
 }

@@ -19,7 +19,7 @@ mod use_fs;
 mod use_args;
 mod use_match;  
 mod use_result;
-
+mod use_errorhandling;
 fn main() {
     println!("Hello, world!");
 
@@ -44,6 +44,7 @@ fn main() {
     use_args::use_agrs(); 
     use_match::use_match();
     use_result::use_result();
+    use_errorhandling::use_error();
 
 }
 
