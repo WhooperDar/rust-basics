@@ -20,6 +20,7 @@ mod use_args;
 mod use_match;  
 mod use_result;
 mod use_errorhandling;
+mod use_generics;
 fn main() {
     println!("Hello, world!");
 
@@ -45,6 +46,7 @@ fn main() {
     use_match::use_match();
     use_result::use_result();
     use_errorhandling::use_error();
+    use_generics::use_generics();
 
 }
 
