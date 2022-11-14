@@ -21,6 +21,9 @@ mod use_match;
 mod use_result;
 mod use_errorhandling;
 mod use_generics;
+mod program;
+
+
 fn main() {
     println!("Hello, world!");
 
@@ -47,6 +50,7 @@ fn main() {
     use_result::use_result();
     use_errorhandling::use_error();
     use_generics::use_generics();
+    program::weather();
 
 }
 

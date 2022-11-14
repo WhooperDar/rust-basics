@@ -32,7 +32,6 @@ pub fn use_structs(){
         blue: 55
     }; 
     
-
     // using tuple struct 
     let mut colorizer_tuple: Color_tuple = Color_tuple(255, 33, 244);
 
@@ -44,7 +43,4 @@ pub fn use_structs(){
     let mut person = Person::new("Lebron", "James"); 
 
     println!("First name: {}, Second name: {}", person.first_name, person.last_name);
-
-
-
 }   
